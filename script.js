@@ -2,7 +2,7 @@
  
 function validateAge(){
     
-    const birth = document.getElementById("Birth").value;
+    const birth = document.getElementById("birth").value;
 
     var ageDifMs = Date.now() - (new Date(birth)).getTime();
     var ageDate = new Date(ageDifMs); // miliseconds from epoch
