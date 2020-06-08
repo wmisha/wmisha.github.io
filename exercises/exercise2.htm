@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhenzhen Wang</title>
+</head>
+<body>
+    <h1>Exercise 2</h1>
+
+
+<hr/>
+Zhenzhen's tasks:<br />
+<ol>
+<li>Separate the first exercise from home page, and use an actual heading in the same way you did with the Dataviz project. This prevented repeated code.<br />
+<li>Fix any remaining issues and clean up unnecessary code from Exercise 1.<br />
+<li>Showing off to the world:
+    <ol type="a">
+        <li>Push repository to remote hosting on Github</li>
+        <li>Make repository visible to web using GitHub Pages feature (url should be "&lt;username&gt;.github.io")</li>
+        <li>Make it accessible using your own domain, mishawang.com (I can help you with the registration)</li>
+    </ol>
+</li>
+<br />
+<hr />
+<li>Make a tool that has a text box for you type in, which does the following:
+    <ol type="a">
+        <li>Counts the number of words that the user has typed</li>
+        <li>Measure a user's average typing speed in terms of words per minute (WPM). Have this value update in real time, whether or not key presses are happening.</li>
+        <li>Evaluate the user's ability to exactly copy a source text, and penalize any incorrectly typed words so that it doesn't count in the WPM</li>
+    </ol>
+</li>
+</ol>
+
+<script>
+// THIS SHOULD BE IN A .js FILE!!
+function update() {
+    document.getElementById("display").innerHTML = document.getElementById("userinput").value;
+}
+</script>
+
+<textarea rows="10" cols="80" id="userinput" onkeyup="update();"></textarea><br />
+You typed: <div style="color:green" id="display"></div>
+</body>
+
+</html>
