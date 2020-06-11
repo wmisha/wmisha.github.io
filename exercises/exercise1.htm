@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Exercise_1</title>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("/header.htm");  
+  $("#footer").load("/footer.htm"); 
+});
+</script> 
+</head>
+<body>
+<div id="header"></div>
+<!--Remaining section-->
+<h1>Exercise 1</h1>
+<div style="color:green;padding:10px;border:1px solid #ddd" id="response">asdf</div>
+<hr />
+<p>Please fill out this form to sign up.</p>
+<!-- <form>
+    <input type="button" value="Click me" onclick="validateAge()">
+  </form> -->
+
+<form onsubmit="return validateAge() && validateEmail()">
+
+    Name: <input type="text" id="name" name="name" /><br />
+    DOB: <input type="date" id= "birth" name="birth" /> <br/>
+    E-mail: <input type="text" id="email" name="mail" /><br />
+
+    Gender: <select name="gender">
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+                <option value="Other">Other</option>
+           </select> <br />
+
+    Country: <input list = "country" name="country">
+        <datalist id="country"> 
+        </datalist><br />
+        <!-- <script type="text/javascript" src="/exercises/countrylist.js"></script> -->
+        <script type="text/javascript" src="countrylist.js"></script>
+        <script type="text/javascript">countriesDropdown("country");</script>
+
+    <input type="submit"><br />
+
+</form>
+<script src="script.js"></script> 
+<hr/>
+Zhenzhen's tasks:<br />
+
+<s>1. Add an ability to select "Other" for gender</s><br />
+<s>2. Validate email address before submitting</s><br />
+<s>3. Make website COPPA-compliant<br /></s>
+<s>4. Instead of allowing any country, turn it into a dropdown list<br /></s>
+<s>5. Use auto-complete for country field (e.g. if I type "Uni", it will show closest matches)</s>
+
+<div id="footer"></div>
+</body>
+</html>
+
