@@ -12,6 +12,7 @@ $(function(){
   $("#footer").load("/footer.htm"); 
 });
 </script> 
+<script src="exercise2.js"></script> 
 </head>
 <body>
 <div id="header"></div>
@@ -39,16 +40,9 @@ Zhenzhen's tasks:<br />
     </ol>
 </li>
 </ol>
-
-<script>
-// THIS SHOULD BE IN A .js FILE!!
-function update() {
-    document.getElementById("display").innerHTML = document.getElementById("userinput").value;
-}
-</script>
-
 <textarea rows="10" cols="80" id="userinput" onkeyup="update();"></textarea><br />
-You typed: <div style="color:green" id="display"></div>
+<div style="color:green" id="display"></div>
+
 
 <div id="footer"></div>
 </body>
