@@ -26332,7 +26332,7 @@ div.sqs-block-opentable-v2 h1 {
   color: inherit;
 }
 .page-section {
-  color: #000;
+  color: #840707;
 }
 .page-section.background-width--inset {
   background-color: #f8dfdb;
@@ -28097,10 +28097,10 @@ body:not(.tweak-transparent-header):not([data-menu-overlay-theme-switcher="true"
   background-color: #fff;
 }
 .sqs-block-image .design-layout-collage .image-title * {
-  color: #fc221c;
+  color: #560705;
 }
 .sqs-block-image .design-layout-collage .image-subtitle * {
-  color: #fc221c;
+  color: #840707;
 }
 .sqs-block-image .design-layout-collage .image-title a,
 .sqs-block-image .design-layout-collage .image-subtitle a {
