@@ -26338,7 +26338,7 @@ div.sqs-block-opentable-v2 h1 {
   background-color: #f8dfdb;
 }
 :not(.has-background) .section-background {
-  background-color: #f8dfdb;
+  background-color: #eae0ac;
 }
 h1 {
   color: #fc221c;
@@ -26666,12 +26666,12 @@ body.primary-button-style-outline .newsletter-form-button {
   opacity: 0.05;
 }
 body[data-menu-overlay-theme-switcher="true"] .header {
-  background-color: #f8dfdb;
+  background-color: #dedbb4;
 }
 body[data-menu-overlay-theme-switcher="true"]:not(.header--menu-open)
   .header-title-text
   a {
-  color: #fc221c;
+  color: #0b93e4;
 }
 body[data-menu-overlay-theme-switcher="true"]:not(.header--menu-open)
   .header-nav-folder-content {
@@ -26680,7 +26680,7 @@ body[data-menu-overlay-theme-switcher="true"]:not(.header--menu-open)
 body[data-menu-overlay-theme-switcher="true"]:not(.header--menu-open)
   .header-nav-wrapper
   a {
-  color: #000;
+  color: #310101;
 }
 body[data-menu-overlay-theme-switcher="true"]:not(.header--menu-open)
   .header-nav-wrapper
