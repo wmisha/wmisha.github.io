@@ -27997,10 +27997,10 @@ body:not(.tweak-transparent-header):not([data-menu-overlay-theme-switcher="true"
   background-color: #40140f;
 }
 .sqs-block-image .design-layout-card .image-title * {
-  color: #000;
+  color: #1e6103;
 }
 .sqs-block-image .design-layout-card .image-subtitle * {
-  color: #000;
+  color: #058c48;
 }
 .sqs-block-image .design-layout-card .image-title a,
 .sqs-block-image .design-layout-card .image-subtitle a {
@@ -28020,7 +28020,7 @@ body:not(.tweak-transparent-header):not([data-menu-overlay-theme-switcher="true"
   .design-layout-card
   .image-button
   a {
-  background: #fc221c;
+  background: #dc7574;
   color: #fff;
 }
 .primary-button-style-outline
